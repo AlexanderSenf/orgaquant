@@ -21,7 +21,7 @@ outputs:
 steps:
 
   orgaquant_step:
-    run: orgaquant.cwl
+    run: tools/orgaquant.cwl
     scatter: [image_path]
     scatterMethod: dotproduct
     in:
